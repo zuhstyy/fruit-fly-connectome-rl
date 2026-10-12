@@ -1,0 +1,48 @@
+{
+  "version": "4.1.0",
+  "passed": true,
+  "model": "fresh seed-17 model",
+  "checkpoint_sha256": null,
+  "saved_decisions": 0,
+  "saved_model_updates": 0,
+  "saved_changed_edges": 0,
+  "graph": {
+    "dataset": "MCNS v1.0",
+    "neurons": 256,
+    "directed_edges": 3326,
+    "graph_sha256": "a06e9a6f48422b9bb47ca9ed258cb3c038095fa2bdc1ad48c467ebdaff7f3edc",
+    "matrix_matches_edge_list": true
+  },
+  "sources": {
+    "original_exports_checked": false,
+    "note": "Run with --source-data to compare the original CSV exports; this check alone validates the bundled graph's internal consistency."
+  },
+  "wiring_experiment": {
+    "synthetic_observations": 16,
+    "mean_neuron_activity_difference": 0.035258538222460584,
+    "maximum_action_probability_difference": 0.01068529941082269,
+    "wiring_changes_action_probabilities": true,
+    "interpretation": "A nonzero difference demonstrates computational use of recurrent edges. It does not show that this wiring is better than random wiring or that Celeste rooms clear."
+  },
+  "learning_experiment": {
+    "synthetic_decisions": 32,
+    "changed_recurrent_edges": 3326,
+    "actor_changed": true,
+    "value_changed": true,
+    "edge_signs_preserved": true,
+    "metrics": {
+      "loss": 0.3927822414500659,
+      "kl": -5.551115123125783e-17,
+      "entropy": 5.360887927496702
+    },
+    "interpretation": "This exercises the same optimizer used by LEARN on a disposable model copy. A changed weight verifies training, not an improved game clear rate."
+  },
+  "memory_experiment": {
+    "parameters_and_optimizer_restored_exactly": true,
+    "decision_scores_restored_exactly": true,
+    "optimizer_step_restored": true,
+    "model_updates_restored": true,
+    "random_generator_restored": true
+  },
+  "gameplay_claim": "No Celeste room clear, biological fidelity, or connectome advantage is established by this offline check."
+}

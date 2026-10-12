@@ -1,0 +1,43 @@
+{
+  "kind": "synthetic_conditional_task",
+  "celeste_played": false,
+  "seed": 17,
+  "sensors": 156,
+  "updates": 70,
+  "rate": 0.02,
+  "default_imitation_rate": 0.0003,
+  "before": [
+    {
+      "sensor": -1.0,
+      "direction": 0,
+      "duration_frames": 4,
+      "direction_probability": 0.3427244921799234,
+      "duration_probability": 0.7536764133395223
+    },
+    {
+      "sensor": 1.0,
+      "direction": 2,
+      "duration_frames": 20,
+      "direction_probability": 0.331853440855247,
+      "duration_probability": 0.01380406502568305
+    }
+  ],
+  "after": [
+    {
+      "sensor": -1.0,
+      "direction": 0,
+      "duration_frames": 4,
+      "direction_probability": 0.9533219617813786,
+      "duration_probability": 0.9413167824758665
+    },
+    {
+      "sensor": 1.0,
+      "direction": 2,
+      "duration_frames": 20,
+      "direction_probability": 0.9517540245730522,
+      "duration_probability": 0.8899700907688814
+    }
+  ],
+  "changed_edges": 1077,
+  "interpretation": "Shows the same fly computation learning conditional direction and duration with an accelerated toy-task learning rate. It does not measure Celeste progress or normal-rate convergence."
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "Synthetic checkpoint made by the previous 4.0 release code; not a game-trained user model",
+  "source_version": "4.0.0",
+  "target_version": "4.1.0",
+  "differences": {
+    "actor": 0.0,
+    "value": 0.0,
+    "theta": 0.0,
+    "m0": 0.0,
+    "m1": 0.0,
+    "m2": 0.0,
+    "v0": 0.0,
+    "v1": 0.0,
+    "v2": 0.0
+  },
+  "metadata": {
+    "steps": 512,
+    "iteration": 2,
+    "chapters": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "optimizer_steps": 7,
+  "source_bytes_unchanged": true
+}

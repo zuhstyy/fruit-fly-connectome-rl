@@ -1,0 +1,16 @@
+{
+  "dataset": "MCNS v1.0",
+  "sex": "male",
+  "scope": "brain and nerve cord",
+  "source_neurons": 166700,
+  "source_connection_rows": 9039608,
+  "subnetwork_neurons": 256,
+  "subnetwork_directed_edges": 3326,
+  "anchor_root_id": "10056",
+  "min_synapses_per_neuropil_row": 5,
+  "seed": 17,
+  "neurons_sha256": "4a5ce5cfde804ede00a1b95ed907fab76b8c02f4ff8decc7d2d81c66a141416b",
+  "connections_sha256": "bb7dae0eb5c62c572b6f15938d868c9f2cbe3d340cf35473de36f403db9dd6cf",
+  "selection": "highest weighted-degree descending anchor and its strongest direct neighbors",
+  "note": "Real induced MCNS topology; synthetic game sensors/actions and simplified rate dynamics."
+}

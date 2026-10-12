@@ -1,0 +1,21 @@
+{
+  "kind": "previous_release_synthetic_checkpoint_migration",
+  "previous_release": "3.2.0",
+  "previous_release_code_used": true,
+  "previous_schema": "mcns-plastic-v2-duration7-bptt16",
+  "new_schema": "mcns-plastic-v3-context156-imitation-bptt32",
+  "maximum_absolute_difference": {
+    "actor": 0.0,
+    "value": 0.0,
+    "theta": 0.0,
+    "m0": 0.0,
+    "m1": 0.0,
+    "m2": 0.0,
+    "v0": 0.0,
+    "v1": 0.0,
+    "v2": 0.0
+  },
+  "all_arrays_exact": true,
+  "optimizer_step": 1,
+  "interpretation": "Old learned arrays and Adam moments are retained exactly. New observations can change action behavior."
+}

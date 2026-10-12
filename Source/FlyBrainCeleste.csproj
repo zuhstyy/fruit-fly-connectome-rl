@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>FlyBrainCeleste</AssemblyName>
+    <RootNamespace>Celeste.Mod.FlyBrainCeleste</RootNamespace>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <CelestePath Condition="'$(CelestePath)' == ''">../../..</CelestePath>
+    <OutputPath>../bin/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Celeste"><HintPath>$(CelestePath)/Celeste.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="FNA"><HintPath>$(CelestePath)/FNA.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="MMHOOK_Celeste"><HintPath>$(CelestePath)/MMHOOK_Celeste.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+  <Target Name="CheckGame" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(CelestePath)/Celeste.dll')" Text="Set CelestePath to your Everest game folder, which contains Celeste.dll." />
+  </Target>
+</Project>

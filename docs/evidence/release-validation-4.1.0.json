@@ -1,0 +1,30 @@
+{
+  "version": "4.1.0",
+  "python_tests_discovered": 107,
+  "python_tests_passed": 106,
+  "python_tests_skipped": 1,
+  "python_tests_skip_reason": "CUDA GPU unavailable",
+  "numpy_only_tests_passed": 103,
+  "numpy_only_tests_skipped": 4,
+  "csharp_button_assertions": 363,
+  "csharp_route_checks": 11,
+  "csharp_bridge_control_checks": 9,
+  "csharp_transport_correlated_requests": 200,
+  "csharp_practice_checks": 22,
+  "compilation_errors": 0,
+  "compilation_warnings": 0,
+  "native_windows_celeste_tested": false,
+  "native_game_speedup_measured": false,
+  "cuda_hardware_tested": false,
+  "full_campaign_clear_established": false,
+  "sixty_four_native_games_tested": false,
+  "overnight_stability_tested": false,
+  "fly_graph_sha256": "a06e9a6f48422b9bb47ca9ed258cb3c038095fa2bdc1ad48c467ebdaff7f3edc",
+  "launcher_files": [
+    "START.cmd",
+    "MONITOR.cmd",
+    "STOP.cmd",
+    "TOOLS.cmd"
+  ],
+  "checkpoint_40_retained_exactly": true
+}

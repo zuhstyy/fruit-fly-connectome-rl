@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: 'Please credit this project and its upstream MCNS dataset separately.'
+title: FlyBrain Celeste
+version: 4.1.0
+date-released: '2026-10-11'
+type: software
+authors:
+  - name: FlyBrain Celeste
+abstract: 'A Celeste learning project using a trainable MCNS recurrent subgraph, PPO, native practice states, and successful-route imitation. It is not a complete biological brain simulation.'
+license: MIT
+keywords:
+  - Celeste
+  - reinforcement learning
+  - connectome
+  - MCNS
+  - PPO

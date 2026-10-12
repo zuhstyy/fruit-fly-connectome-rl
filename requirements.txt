@@ -1,0 +1,2 @@
+# Runtime dependency. This is the NumPy version used for the release checks.
+numpy==2.3.5

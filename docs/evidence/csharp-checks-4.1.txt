@@ -1,0 +1,18 @@
+Microsoft (R) Visual C# Compiler version 4.11.0-3.25569.22 (3fb752d4)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+363 button timing assertions passed (120 frames across 4 decisions).
+Microsoft (R) Visual C# Compiler version 4.11.0-3.25569.22 (3fb752d4)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+11 C# room-route checks passed (synthetic geometry, not live maps).
+Microsoft (R) Visual C# Compiler version 4.11.0-3.25569.22 (3fb752d4)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+{"test":"raw C# localhost transport","requests":200,"p50_ms":0.0604,"p95_ms":0.1841,"native_game":false}
+9 C# bridge/control checks and 200 correlated command-signal round trips passed.
+Microsoft (R) Visual C# Compiler version 4.11.0-3.25569.22 (3fb752d4)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+22 C# practice adapter/API checks passed; no native game was run.
+C# harnesses passed. These are adapter/protocol/timing checks, not Celeste playtests.

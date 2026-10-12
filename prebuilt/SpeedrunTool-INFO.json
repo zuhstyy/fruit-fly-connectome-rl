@@ -1,0 +1,13 @@
+{
+  "module": "SpeedrunTool",
+  "version": "3.27.21",
+  "file_id": "1802496",
+  "source": "https://celestemodupdater.0x0a.de/banana-mirror/1802496.zip",
+  "updater": "https://everestapi.github.io/updatermirror/everest_update.yaml",
+  "upstream": "https://github.com/DemoJameson/Celeste.SpeedrunTool",
+  "size": 330317,
+  "sha256": "c5cf070f4f69969e9166f95fca375a0a97b306e7f6c19fe22fa0928710ac07e4",
+  "expected_xxhash64": "13d8948e88482580",
+  "license": "MIT",
+  "verified_xxhash64": "13d8948e88482580"
+}

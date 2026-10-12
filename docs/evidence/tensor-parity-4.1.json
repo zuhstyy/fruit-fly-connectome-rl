@@ -1,0 +1,37 @@
+{
+  "torch_version": "2.5.1+cpu",
+  "cuda_available": false,
+  "native_game": false,
+  "results": [
+    {
+      "device": "CPU",
+      "precision": "float64",
+      "loss_error": 8.881784197001252e-16,
+      "gradient_max_errors": [
+        7.771561172376096e-16,
+        7.632783294297951e-17,
+        2.42861286636753e-17
+      ],
+      "imitation_max_errors": [
+        6.071532165918825e-18,
+        0.0,
+        1.6263032587282567e-19
+      ]
+    },
+    {
+      "device": "CPU",
+      "precision": "float32",
+      "loss_error": 6.982752580597662e-07,
+      "gradient_max_errors": [
+        6.442646104387606e-07,
+        1.7125743968782192e-08,
+        8.773877312184819e-09
+      ],
+      "imitation_max_errors": [
+        4.560353468463507e-08,
+        0.0,
+        3.10944489557638e-11
+      ]
+    }
+  ]
+}

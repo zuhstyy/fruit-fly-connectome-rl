@@ -1,0 +1,9 @@
+- Name: FlyBrainCeleste
+  Version: 4.1.0
+  DLL: bin/FlyBrainCeleste.dll
+  Dependencies:
+    - Name: EverestCore
+      Version: 1.5577.0
+  OptionalDependencies:
+    - Name: SpeedrunTool
+      Version: 3.27.21
