@@ -121,20 +121,10 @@ while running:
     screen.fill((30, 30, 30))
 
     # goal is green circle
-    pygame.draw.circle(
-        screen,
-        (0, 255, 0),
-        (goal_x, goal_y),
-        goal_radius
-    )
+    pygame.draw.circle(screen, (0, 255, 0), (goal_x, goal_y), goal_radius)
 
     # fly is yellow circle lol
-    pygame.draw.circle(
-        screen,
-        (255, 255, 0),
-        (fly_x, fly_y),
-        fly_radius
-    )
+    pygame.draw.circle(screen, (255, 255, 0), (fly_x, fly_y), fly_radius)
 
     pygame.display.flip()
 
